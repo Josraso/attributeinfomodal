@@ -1,0 +1,23 @@
+.attribute-info-modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex; align-items: center; justify-content: center;
+}
+.attribute-info-modal .modal-content {
+    background: #fff; padding: 20px; border-radius: 5px;
+    max-width: 400px; text-align: center;
+}
+.attribute-info-modal .close {
+    float: right; font-size: 24px; cursor: pointer;
+}
+.attribute-info-icon {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.attribute-info-icon .attribute-icon {
+    font-size: 18px;
+}
